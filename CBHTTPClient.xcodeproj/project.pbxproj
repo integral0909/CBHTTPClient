@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		139A8A27997DEC910E810873 /* libPods-CBHTTPClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ECC86DC8CDA7643454EE539 /* libPods-CBHTTPClient.a */; };
+		7F8FF520238BB898A83B5858 /* libPods-CBHTTPClientTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B51346A7C12D07840C53021 /* libPods-CBHTTPClientTests.a */; };
 		84E9F4091E0AE1BF0064A45D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E9F4081E0AE1BF0064A45D /* AppDelegate.m */; };
 		84E9F40C1E0AE1BF0064A45D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E9F40B1E0AE1BF0064A45D /* main.m */; };
 		84E9F40E1E0AE1BF0064A45D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E9F40D1E0AE1BF0064A45D /* Assets.xcassets */; };
 		84E9F4111E0AE1BF0064A45D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84E9F40F1E0AE1BF0064A45D /* MainMenu.xib */; };
 		84E9F41C1E0AE1C00064A45D /* CBHTTPClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E9F41B1E0AE1C00064A45D /* CBHTTPClientTests.m */; };
+		84E9F4281E0AE58D0064A45D /* CBHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E9F4271E0AE58D0064A45D /* CBHTTPClient.m */; };
+		84E9F42A1E0AF1EB0064A45D /* response.json in Resources */ = {isa = PBXBuildFile; fileRef = 84E9F4291E0AF1EB0064A45D /* response.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +29,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B51346A7C12D07840C53021 /* libPods-CBHTTPClientTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CBHTTPClientTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52AA503A9E5A24802574F3A0 /* Pods-CBHTTPClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CBHTTPClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CBHTTPClient/Pods-CBHTTPClient.debug.xcconfig"; sourceTree = "<group>"; };
+		569AF6D6888F771971DAB530 /* Pods-CBHTTPClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CBHTTPClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-CBHTTPClient/Pods-CBHTTPClient.release.xcconfig"; sourceTree = "<group>"; };
+		5ECC86DC8CDA7643454EE539 /* libPods-CBHTTPClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CBHTTPClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64F4CB7F3BC4E4D4B7757409 /* Pods-CBHTTPClientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CBHTTPClientTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CBHTTPClientTests/Pods-CBHTTPClientTests.debug.xcconfig"; sourceTree = "<group>"; };
 		84E9F4041E0AE1BF0064A45D /* CBHTTPClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CBHTTPClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E9F4071E0AE1BF0064A45D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84E9F4081E0AE1BF0064A45D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -35,6 +44,10 @@
 		84E9F4171E0AE1C00064A45D /* CBHTTPClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CBHTTPClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E9F41B1E0AE1C00064A45D /* CBHTTPClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBHTTPClientTests.m; sourceTree = "<group>"; };
 		84E9F41D1E0AE1C00064A45D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E9F4261E0AE58D0064A45D /* CBHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBHTTPClient.h; sourceTree = "<group>"; };
+		84E9F4271E0AE58D0064A45D /* CBHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBHTTPClient.m; sourceTree = "<group>"; };
+		84E9F4291E0AF1EB0064A45D /* response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = response.json; sourceTree = "<group>"; };
+		C390F5527C053BD6ADD7124E /* Pods-CBHTTPClientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CBHTTPClientTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CBHTTPClientTests/Pods-CBHTTPClientTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				139A8A27997DEC910E810873 /* libPods-CBHTTPClient.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,18 +63,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F8FF520238BB898A83B5858 /* libPods-CBHTTPClientTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38818438810151F8416C0FA7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52AA503A9E5A24802574F3A0 /* Pods-CBHTTPClient.debug.xcconfig */,
+				569AF6D6888F771971DAB530 /* Pods-CBHTTPClient.release.xcconfig */,
+				64F4CB7F3BC4E4D4B7757409 /* Pods-CBHTTPClientTests.debug.xcconfig */,
+				C390F5527C053BD6ADD7124E /* Pods-CBHTTPClientTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		84E9F3FB1E0AE1BF0064A45D = {
 			isa = PBXGroup;
 			children = (
 				84E9F4061E0AE1BF0064A45D /* CBHTTPClient */,
 				84E9F41A1E0AE1C00064A45D /* CBHTTPClientTests */,
 				84E9F4051E0AE1BF0064A45D /* Products */,
+				38818438810151F8416C0FA7 /* Pods */,
+				984459A222698F14F2C9E28A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,7 +109,10 @@
 				84E9F40D1E0AE1BF0064A45D /* Assets.xcassets */,
 				84E9F40F1E0AE1BF0064A45D /* MainMenu.xib */,
 				84E9F4121E0AE1BF0064A45D /* Info.plist */,
+				84E9F4291E0AF1EB0064A45D /* response.json */,
 				84E9F40A1E0AE1BF0064A45D /* Supporting Files */,
+				84E9F4261E0AE58D0064A45D /* CBHTTPClient.h */,
+				84E9F4271E0AE58D0064A45D /* CBHTTPClient.m */,
 			);
 			path = CBHTTPClient;
 			sourceTree = "<group>";
@@ -103,6 +134,15 @@
 			path = CBHTTPClientTests;
 			sourceTree = "<group>";
 		};
+		984459A222698F14F2C9E28A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5ECC86DC8CDA7643454EE539 /* libPods-CBHTTPClient.a */,
+				1B51346A7C12D07840C53021 /* libPods-CBHTTPClientTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -110,9 +150,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84E9F4201E0AE1C00064A45D /* Build configuration list for PBXNativeTarget "CBHTTPClient" */;
 			buildPhases = (
+				7F8B9A6E56571A7678B8FC4A /* [CP] Check Pods Manifest.lock */,
 				84E9F4001E0AE1BF0064A45D /* Sources */,
 				84E9F4011E0AE1BF0064A45D /* Frameworks */,
 				84E9F4021E0AE1BF0064A45D /* Resources */,
+				FA0EEADA464124738208AEC6 /* [CP] Embed Pods Frameworks */,
+				8145028288C69C7BCF4B8A3E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,9 +170,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84E9F4231E0AE1C00064A45D /* Build configuration list for PBXNativeTarget "CBHTTPClientTests" */;
 			buildPhases = (
+				8784F1B235C9BB806072A2D6 /* [CP] Check Pods Manifest.lock */,
 				84E9F4131E0AE1C00064A45D /* Sources */,
 				84E9F4141E0AE1C00064A45D /* Frameworks */,
 				84E9F4151E0AE1C00064A45D /* Resources */,
+				44C2E5F34BF3EB6950EFC565 /* [CP] Embed Pods Frameworks */,
+				581D2EFE75A4C74B25B2CAC4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -186,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84E9F40E1E0AE1BF0064A45D /* Assets.xcassets in Resources */,
+				84E9F42A1E0AF1EB0064A45D /* response.json in Resources */,
 				84E9F4111E0AE1BF0064A45D /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -199,6 +246,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		44C2E5F34BF3EB6950EFC565 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CBHTTPClientTests/Pods-CBHTTPClientTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		581D2EFE75A4C74B25B2CAC4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CBHTTPClientTests/Pods-CBHTTPClientTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F8B9A6E56571A7678B8FC4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8145028288C69C7BCF4B8A3E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CBHTTPClient/Pods-CBHTTPClient-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8784F1B235C9BB806072A2D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FA0EEADA464124738208AEC6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CBHTTPClient/Pods-CBHTTPClient-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84E9F4001E0AE1BF0064A45D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -206,6 +346,7 @@
 			files = (
 				84E9F40C1E0AE1BF0064A45D /* main.m in Sources */,
 				84E9F4091E0AE1BF0064A45D /* AppDelegate.m in Sources */,
+				84E9F4281E0AE58D0064A45D /* CBHTTPClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +469,7 @@
 		};
 		84E9F4211E0AE1C00064A45D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52AA503A9E5A24802574F3A0 /* Pods-CBHTTPClient.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -340,6 +482,7 @@
 		};
 		84E9F4221E0AE1C00064A45D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 569AF6D6888F771971DAB530 /* Pods-CBHTTPClient.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -352,6 +495,7 @@
 		};
 		84E9F4241E0AE1C00064A45D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64F4CB7F3BC4E4D4B7757409 /* Pods-CBHTTPClientTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -365,6 +509,7 @@
 		};
 		84E9F4251E0AE1C00064A45D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C390F5527C053BD6ADD7124E /* Pods-CBHTTPClientTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -395,6 +540,7 @@
 				84E9F4221E0AE1C00064A45D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84E9F4231E0AE1C00064A45D /* Build configuration list for PBXNativeTarget "CBHTTPClientTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +549,7 @@
 				84E9F4251E0AE1C00064A45D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
